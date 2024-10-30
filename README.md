@@ -10,25 +10,11 @@
 
 Chafa is a command-line utility that converts image data, including
 animated GIFs, into graphics formats or ANSI/Unicode character art suitable
-for display in a terminal. It has broad feature support, allowing it to be
-used on devices ranging from historical teleprinters to modern terminal
-emulators and everything in between.
+for display in a terminal. 
 
-The core functionality is provided by a C library with a public,
-well-documented API.
-
-Both library and frontend tools are covered by the Lesser GPL license,
-version 3 or later (LGPLv3+).
-
-The [official web pages](https://hpjansson.org/chafa/) and [C API
-documentation](https://hpjansson.org/chafa/ref/) can be found online. Check
-out the [gallery](https://hpjansson.org/chafa/gallery/) for screenshots.
 
 ## Installing
-
-Chafa is most likely packaged for your distribution, so if you're not
-going to hack on it, you're better off using
-[official packages](https://hpjansson.org/chafa/download/). If you want to
+ If you want to
 build the latest and greatest yourself, read on.
 
 You will need GCC, make, Autoconf, Automake, Libtool and the GLib
